@@ -36,7 +36,7 @@ export default function Sidebar() {
       <aside className={`sidebar${open ? ' open' : ''}`}>
         <div className="sb-logo" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
           <div className="sb-logo-mark">
-            <div className="sb-logobox">A</div>
+            <img src="/aims-icon.png" alt="AIMS" style={{ width: 34, height: 34, borderRadius: 10 }} />
             <div>
               <div className="sb-name">AIMS CRM</div>
               <div className="sb-sub">Nigeria</div>

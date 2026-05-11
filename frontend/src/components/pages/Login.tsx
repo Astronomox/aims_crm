@@ -51,13 +51,10 @@ export default function Login() {
     }}>
       <div style={{ width: '100%', maxWidth: 400, padding: '0 24px' }}>
         <div style={{ textAlign: 'center', marginBottom: 36 }}>
-          <div style={{
-            display: 'inline-flex', width: 52, height: 52,
-            background: 'linear-gradient(135deg, var(--gold), #9A7820)',
-            borderRadius: 16, alignItems: 'center', justifyContent: 'center',
-            fontSize: 22, fontWeight: 800, color: '#fff', marginBottom: 18,
+          <img src="/aims-icon.png" alt="AIMS" style={{
+            width: 52, height: 52, borderRadius: 16, marginBottom: 18,
             boxShadow: '0 4px 20px rgba(184,146,47,0.25)',
-          }}>A</div>
+          }} />
           <div style={{ fontSize: 26, fontWeight: 700, color: 'var(--text-0)', letterSpacing: '-0.02em' }}>
             AIMS CRM
           </div>
@@ -147,7 +144,7 @@ export default function Login() {
             {mode === 'register' && form.password && (
               <div style={{ marginBottom: 14 }}>
                 <div style={{ display: 'flex', gap: 4, marginBottom: 4 }}>
-                  {[1,2,3,4].map(i => (
+                  {[1, 2, 3, 4].map(i => (
                     <div key={i} style={{
                       flex: 1, height: 3, borderRadius: 2,
                       background: form.password.length >= i * 3
