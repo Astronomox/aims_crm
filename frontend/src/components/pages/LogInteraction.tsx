@@ -84,7 +84,7 @@ export default function LogInteraction() {
           <div className="page-heading">Interaction Logged</div>
           <div className="page-subheading">AI summary and transcript generated</div>
         </div>
-        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 16, marginBottom: 16 }} className="form-grid-2" style={{ display: 'grid', gap: 16, marginBottom: 16 }}>
+        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 16, marginBottom: 16 }} className="form-grid-2">
           <div className="card">
             <div className="card-header"><div className="card-title">Professional summary</div></div>
             <div className="card-body" style={{ fontSize: 13.5, color: 'var(--text-1)', lineHeight: 1.75 }}>
